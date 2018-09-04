@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="estilo/estilos.css" />
 </head>
-<body class="home">
+<body id="duas-colunas" class="home">
+    <!--Começo de container-->
     <div id="container">
         <h1 class="logo">Logo</h1>
+        <!--Começo de navegação-->
         <div id="nav">
             <ul>
                     <li class="primeiro" id="home"><a href="">Home</a></li>
@@ -20,7 +22,30 @@
                 <li id="ciencia"><a href="">Ciência</a></li>
                 <li id="fotos"><a href="">Fotos</a></li>
             </ul>
+        </div><!--Fim de navegação-->
+        
+        <div id="conteudo"><!--Começo conteudo-->
+            <div id="primario">Primario</div>
+            <div id="secundario"></div>
+            <!--Começo de Lateral-->
+            <div id="lateral">
+                <div class="caixa">
+                    <h2>Entrevista</h2>
+                    <div class="caixa-conteudo">
+                        conteudo<br>
+                        conteudo<br>
+                        conteudo<br>
+                        conteudo<br>
+                    </div>
+                </div>
+            </div><!--Fim de Lateral-->
+        </div><!--Fim conteudo-->
+
+    </div><!--Fim de container-->
+    <footer>
+        <div>
+            &copy;Todos direitos preservados
         </div>
-    </div>
+    </footer>
 </body>
 </html>
