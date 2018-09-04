@@ -29,7 +29,7 @@ ul{
 
 #nav ul{
     margin-top: 20px;
-    background: #b10333;
+    background: linear-gradient(to bottom, #b10333 , #80111d);
     float: left;
 }
 
@@ -52,4 +52,17 @@ ul{
 
 #nav ul a:hover{
     color: #69001d;
+}
+
+body.home #nav li#home a,
+body.brasil #nav li#brasil a
+body.internacional #nav li#internacional a
+body.ecnomia #nav li#ecnomia a
+body.saude #nav li#saude a
+body.ciencia #nav li#ciencia a
+body.fotos #nav li#fotos a
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
 }
