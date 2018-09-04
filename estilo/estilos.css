@@ -7,8 +7,8 @@ body{
 }
 #container{
     
-    width: 65%;
-    min-width: 720px;
+    width: 40%;
+    min-width: 950px;
     margin: 0 auto;
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
 }
@@ -59,11 +59,11 @@ ul{
 
 /*Menu selecionado*/
 body.home #nav li#home a,
-body.brasil #nav li#brasil a
-body.internacional #nav li#internacional a
-body.ecnomia #nav li#ecnomia a
-body.saude #nav li#saude a
-body.ciencia #nav li#ciencia a
+body.brasil #nav li#brasil a,
+body.internacional #nav li#internacional a,
+body.ecnomia #nav li#ecnomia a,
+body.saude #nav li#saude a,
+body.ciencia #nav li#ciencia a,
 body.fotos #nav li#fotos a
 {
     color: #fff;
@@ -83,7 +83,7 @@ body.fotos #nav li#fotos a
     float: left; 
 }
 #duas-colunas #primario{
-    width: 555px;
+    width: 655px;
 }
 #uma-colunas #primario{
     width: 100%;
@@ -99,6 +99,12 @@ body.fotos #nav li#fotos a
 #lateral{
     width: 180px;
     margin: 0px 0px 20px -820px;
+    float: left;
+
+}
+#duas-colunas #lateral{
+    width: 180px;
+    margin: 0px 0px 20px -855px;
     float: left;
 
 }
@@ -161,7 +167,37 @@ label{
     display: inline-block;
     color: #fff;
 }
-
+/*Imagens e listas de noticias*/
+#listas-noticias li a img{
+    width: 20%;
+    float: left;
+    margin: 5px;
+}
+#duas-colunas #listas-noticias li a img{
+    width: 10%;
+    float: left;
+    margin: 5px;
+}
+#listas-noticias li a {
+    text-decoration: none;
+    font-size: 0.8em;
+     line-height: 11px
+}
+#listas-noticias li a:hover {
+    text-decoration: underline;
+}
+#listas-noticias li h3 {
+    line-height: 0px;
+    color: #294c71;
+}
+#listas-noticias li p {
+    color: black;
+}
+#listas-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
 /*Rodape*/
 footer{
     clear: both;
