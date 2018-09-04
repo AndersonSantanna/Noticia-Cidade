@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="estilo/estilos.css" />
 </head>
-<body id="duas-colunas" class="home">
+<body id="tres-colunas" class="home">
     <!--Começo de container-->
     <div id="container">
         <h1 class="logo">Logo</h1>
@@ -25,19 +25,63 @@
         </div><!--Fim de navegação-->
         
         <div id="conteudo"><!--Começo conteudo-->
-            <div id="primario">Primario</div>
-            <div id="secundario"></div>
+            <div id="primario">
+                <div class="caixa destaque">
+                    <h2>Última Entrevista</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Entrevista Com Felipe</h3>
+                        <img src="imagens/doutor.jpg" alt="doutor">
+                        <p>
+                            Lorem ipsum sapien orci mollis nulla lobortis accumsan dolor
+                        </p>
+                        <a href="">+Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div id="secundario">
+                    <div class="caixa destaque">
+                            <h2>Destaque</h2>
+                            <div class="caixa-conteudo">
+                                <h3>Nova Legislação</h3>
+                                <img src="imagens/taxi.jpg" alt="taxi" title="Nova Legislação">
+                                <p>
+                                    Lorem ipsum sapien orci mollis nulla lobortis accumsan dolor
+                                </p>
+                                <a href="">+Leia Mais</a>
+                            </div>
+                        </div>
+            </div>
             <!--Começo de Lateral-->
             <div id="lateral">
                 <div class="caixa">
                     <h2>Entrevista</h2>
                     <div class="caixa-conteudo">
-                        conteudo<br>
-                        conteudo<br>
-                        conteudo<br>
-                        conteudo<br>
+                        <ul>
+                            <li><a href="">Anderson Sant'Anna</a></li>
+                            <li><a href="">Jon Snow</a></li>
+                            <li><a href="">Daniela tagarela</a></li>
+                            <li><a href="">O anão</a></li>
+                            <li><a href="">Tony Stark</a></li>
+                            <li><a href="">Bruce Wayne</a></li>
+                            <li><a href="">Petter Parker</a></li>
+                            <li><a href="">Fred Bolivia</a></li>
+                        </ul>
                     </div>
                 </div>
+                <div class="caixa">
+                        <h2>New</h2>
+                        <div class="caixa-conteudo">
+                            <form action="">
+                                <div>
+                                    <label for="">E-mail:</label>
+                                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail...">
+                                </div>
+                                <div>
+                                    <input id="botao" type="submit" value="enviar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
             </div><!--Fim de Lateral-->
         </div><!--Fim conteudo-->
 
